@@ -1,8 +1,8 @@
-# Object Relationships: Kickstarter Lab
+# OO Relationships: Kickstarter Lab
 
-## Objectives
+## Learning Goals
 
-- Build classes that produce objects that relate to one another.
+- Build classes that produce objects that relate to one another
 
 ## Description
 
@@ -31,7 +31,7 @@ back many projects. Neither can _belong to_ just one of the other.
 However, if we introduce a third class in between Project and Backer, we can
 establish a _has many through_ relationship in both directions!
 
-We can call this class ProjectBacker &mdash; each instance of ProjectBacker will
+We can call this class ProjectBacker — each instance of ProjectBacker will
 represent an association between a single backer and a single project. A
 ProjectBacker, therefore, belongs to one Backer and one Project. ProjectBacker,
 in essence, acts as a _join_ between Project and Backer. It allows us to
@@ -85,6 +85,6 @@ By creating the ProjectBacker class, we can maintain a single source of truth in
 a relationship where both sides have many of the other.
 
 ProjectBacker is also a great example of how awesome object orientation is
-&mdash; we can use OO to represent real-world relationships and classes to
+— we can use OO to represent real-world relationships and classes to
 represent _things_. But sometimes, when we need more flexibility, classes can
 exist purely to represent a _relationship_.
